@@ -1,0 +1,114 @@
+<html>
+    
+        <head>
+  <link rel="stylesheet" href="style.css">
+            <style>
+            p, span {
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            
+            body{
+                
+              background-image:url(background.jpg);
+             background-size: cover;
+            
+         
+            }
+          /* parte del quadrato nero*/
+            .box {
+                background-color: black;
+                padding: 100px;
+                height:600;
+                width:800;
+                margin-left:620px;
+              
+                opacity:0.8; 
+                 border-radius: 20px;
+                
+            }
+             /* parte del quadrato nero*/
+            .logo {
+                height: 100px;
+                text-align: center;
+                margin: 20px auto;
+            }
+            .logo img {
+                height: 100%;
+            }
+            .pulsanti {
+                text-align: center;
+                background-color: #0f0;
+                padding: 5px 0;
+                height:5%; 
+            }
+            .title {
+                color: #0f0;
+                text-align: center;
+            }
+            .progress-bar {
+                height: 30px;
+                border-radius: 5px;
+            }
+            #barra-1 {
+                width: 53%;
+                background-color: mistyrose;
+            }
+            #barra-2{
+               width:83%;
+                background-color: limegreen;
+                
+            }
+            button{
+                
+            margin-top:5px;   
+                
+            }
+            
+            #barra-3{
+              width:33%;
+              
+                background-color:red;
+                
+            }
+spunta{
+    
+    
+    
+}
+        </style>
+</head>
+        
+   
+    <body>
+        <!-- parte riguardante logo + pulsanti -->
+        <div class="box">
+            <div class="logo"><img src="logo.png"></div>
+            <span><h2 class="title">Taking Booleaners from A to B</h2></span>
+            <div class="pulsanti">
+                <button>Pulsante 1</button>
+                <button>Pulsante 2</button>
+                <button>Pulsante 3</button>
+            </div>
+             <!-- parte riguardante logo + pulsanti -->
+            
+            <!-- parte riguardante i dati sui monpattini -->
+            <div class="spunta">
+                <input type="checkbox"><span>MONOPATTINO GINO 22</span>
+                <p>Via Guadalametri - a 200 m da te</p>
+                <p>Progresso:</p>
+                <div class="progress-bar" id="barra-1"></div>
+                 <input type="checkbox"><span>MONOPATTINO MIKE 24</span>
+                <p>Via ricciardoni a 420 m da te</p>
+                <p>Progresso:</p>
+                <div class="progress-bar" id="barra-2"></div>
+                <input type="checkbox"><span>MONOPATTINO FEDE 154</span>
+                <p>Via mentarini a 420 m da te</p>
+                <p>Progresso:</p>
+                <div class="progress-bar" id="barra-3"></div>
+            </div>
+        </div>
+        <!-- parte riguardante i dati sui monpattini -->
+    </body>
+</html>
